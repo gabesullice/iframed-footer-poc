@@ -1,0 +1,39 @@
+body, .footer_container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.fullw {
+	width: 100%;
+	padding: 1em;
+}
+
+.footer_container iframe {
+	width: 100%;
+	border: 0;
+	min-height: 250px;
+}
+
+@media  (min-width: 1000px) {
+	.footer_container iframe {
+		width: 100%;
+		border: 0;
+		min-height: 175px;
+	}
+}
+
+.footer {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.footer ul {
+	display: inline-block;
+	width: 200px;
+}
+
+html.footer {
+	overflow: hidden;
+	background: lightgray;
+}
